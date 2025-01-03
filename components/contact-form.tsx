@@ -41,6 +41,7 @@ export default function ContactForm() {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
     sendContactEmail(values);
+    form.reset();
   }
 
   return (
@@ -122,8 +123,8 @@ export default function ContactForm() {
                 )}
               />
             </div>
-            <Button type="submit" className="ml-auto">
-              Submit
+            <Button type="submit" className="ml-auto w-full">
+              send message
             </Button>
           </form>
         </Form>
