@@ -52,6 +52,7 @@ export default function SupportPage() {
         setSubmitStatus('error');
         toast.error(response.error || 'Failed to send message');
       }
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       setSubmitStatus('error');
       toast.error('An unexpected error occurred');
