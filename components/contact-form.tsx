@@ -4,7 +4,6 @@ import {
   Card,
   CardHeader,
   CardTitle,
-  CardDescription,
   CardContent,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -48,10 +47,6 @@ export default function ContactForm() {
     <Card className="mx-auto max-w-md">
       <CardHeader>
         <CardTitle>Contact Us</CardTitle>
-        <CardDescription>
-          Fill out the form below and we&aposll get back to you as soon as
-          possible.
-        </CardDescription>
       </CardHeader>
       <CardContent>
         <Form {...form}>
